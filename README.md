@@ -35,17 +35,17 @@ A simple and colorful command-line weather application written in Rust. It fetch
    ```bash
    git clone https://github.com/your-username/weather-station-rust.git
    cd weather-station-rust
-2. **Create a .env file in the root directory:
+2. **Create a .env file in the root directory**:
     ```bash
     WEATHER_API_KEY=your_api_key
-3. **Add dependencies in Cargo.toml:
+3. **Add dependencies in Cargo.toml**:
     ```bash
     [dependencies]
     reqwest = { version = "0.11", features = ["blocking", "json"] }
     serde = { version = "1.0", features = ["derive"] }
     colored = "2.0"
     dotenv = "0.15.0"
-4. **Build and run the app:
+4. **Build and run the app**:
     ```bash
     cargo run
 
